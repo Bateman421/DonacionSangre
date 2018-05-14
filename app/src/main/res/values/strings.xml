@@ -6,6 +6,9 @@
     <string name="form_esp">Formulario</string>
     <string name="button_save">Guardar</string>
     <string name="last_name_esp">Apellidos</string>
+    <string name="date_donated">Ultima donacion hecha</string>
+    <string name="date_next_donation">Puedo donar hasta</string>
+    <string name="button_donated">Donar</string>
 
     <string-array name="bloodType_array">
         <item>O-</item>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DonacionSangre</string>
+    <string name="app_name">Donacion de Sangre</string>
     <string name="action_settings">Opciones</string>
     <string name="name_esp">Nombre</string>
     <string name="birthdate_esp">Fecha de nacimiento</string>

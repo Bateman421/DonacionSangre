@@ -1,1 +1,1 @@
-include ':app', ':formulary', ':administration'
+include ':app', ':formulary', ':administration', ':adminside'

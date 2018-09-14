@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.settings) {
             Intent myIntent = new Intent(MainActivity.this, Formulary.class);
             MainActivity.this.startActivity(myIntent);
             return true;

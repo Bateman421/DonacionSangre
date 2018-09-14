@@ -22,6 +22,10 @@
         <activity
             android:name=".Donors"
             android:label="@string/title_activity_donors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonorData"
+            android:label="@string/title_activity_donor_data"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

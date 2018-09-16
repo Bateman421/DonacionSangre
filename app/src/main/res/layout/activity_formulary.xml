@@ -47,7 +47,7 @@
         android:ems="10"
         android:hint="@string/name_esp"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/editTextLastNameFather"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
@@ -77,20 +77,20 @@
         app:layout_constraintTop_toBottomOf="@+id/spinnerSangre" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextLastNameFather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/last_name1_esp"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintBottom_toTopOf="@+id/editTextLastNameMother"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNombre" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editTextLastNameMother"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -99,5 +99,5 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextFechaNacimiento"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextLastNameFather" />
 </android.support.constraint.ConstraintLayout>
